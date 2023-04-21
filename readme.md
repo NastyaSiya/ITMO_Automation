@@ -2,4 +2,4 @@
 
 ---
 
-Prakticheskaya chast po avtomatizatsii na paython
+Prakticheskaya chast po avtomatizatsii na python
