@@ -46,14 +46,14 @@ def z4(k, d, t):
 print(z4(220, 30, 10))
 
 
-def z5(q, n, i):
+def z5(q, n):
     for i in range(5):
         if 0 < q[i]:
             n = n + 1
         return n
 
 
-print(z5([1, -4, -3, 8, -256], 0, 0))
+print(z5([1, -4, -3, 8, -256], 0))
 
 
 def z6(year, month):
