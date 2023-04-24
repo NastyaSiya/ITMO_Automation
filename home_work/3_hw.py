@@ -61,7 +61,6 @@ def z6(year, month):
 
 
 print(z6(4, 3))
-zvanie = 5
 
 
 def z6(g):
