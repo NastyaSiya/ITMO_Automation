@@ -63,7 +63,7 @@ def z6(year, month):
 print(z6(4, 3))
 
 
-def z6(g):
+def z7(g):
     if 1 <= g <= 4:
         return 'bakalavr'
     elif 5 <= g <= 6:
@@ -74,4 +74,4 @@ def z6(g):
         return 'Vvedite korrektniy god obucheniya'
 
 
-print(z6(5))
+print(z7(5))
