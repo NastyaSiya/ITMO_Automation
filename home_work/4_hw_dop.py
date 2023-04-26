@@ -12,15 +12,18 @@ class Car:
         return print('Avtomobil zagluschen')
 
     def god(self, a):
-        a = self.year
+        self.year = a
+        return print(self.year)
 
     def tp(self, b):
-        b = self.tip
+        self.tip = b
+        return print(self.tip)
 
     def tsvet(self, c):
-        c = self.color
+        self.color = c
+        return print(self.color)
 
 
 a = Car('Siniy', 'Sedan', '2001')
 
-print(a.god())
+a.god('2021')
